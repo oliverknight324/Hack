@@ -3,7 +3,7 @@
 #include <iostream> 
 using namespace std; 
 
-// A function to implement bubble sort 
+// A function for bubble sort 
 void bubbleSort(int arr[], int n) 
 { 
 	int i, j; 
