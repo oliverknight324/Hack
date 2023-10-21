@@ -28,11 +28,11 @@ void printArray(int arr[], int size)
 // Driver code 
 int main() 
 { 
-	int n = 25;
+    int n = 1;
 	int arr[] = { 5, 1, 4, 2, 8}; 
-	int K = sizeof(arr) / sizeof(arr[0]); 
-	bubbleSort(arr, K); 
+	int M = sizeof(arr) / sizeof(arr[0]); 
+	bubbleSort(arr, M); 
 	cout << "Sorted array: \n"; 
-	printArray(arr, K); 
+	printArray(arr, M); 
 	return 0; 
 }
