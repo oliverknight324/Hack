@@ -29,9 +29,9 @@ void printArray(int arr[], int size)
 int main() 
 { 
 	int arr[] = { 5, 1, 4, 2, 8}; 
-	int M = sizeof(arr) / sizeof(arr[0]); 
-	bubbleSort(arr, M); 
+	int N = sizeof(arr) / sizeof(arr[0]); 
+	bubbleSort(arr, N); 
 	cout << "Sorted array: \n"; 
-	printArray(arr, M); 
+	printArray(arr, N); 
 	return 0; 
 }
