@@ -28,6 +28,7 @@ void printArray(int arr[], int size)
 // Driver code 
 int main() 
 { 
+	int k = 25;
 	int arr[] = { 5, 1, 4, 2, 8}; 
 	int K = sizeof(arr) / sizeof(arr[0]); 
 	bubbleSort(arr, K); 
