@@ -39,3 +39,4 @@ if __name__ == '__main__':
 	n = len(price); 
 	print(maxProfit(price, 0, n - 1)); 
 # This code is contributed by Rajput-Ji 
+# Run this program using VsCode
