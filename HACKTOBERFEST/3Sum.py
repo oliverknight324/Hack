@@ -22,3 +22,4 @@ class Solution(object):
       return result
 ob1 = Solution()
 print(ob1.threeSum([-1,0,1,2,-1,-4]))
+# Run python program on VsCode
